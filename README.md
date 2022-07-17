@@ -1,5 +1,5 @@
 # Genius-Coding Laravel demo project
-This project contains all the samples of my videos on <a href="https://www.youtube.com/channel/UC4TcEW7UPQTS8uAGS611BOg">my YouTube channel</a>.<br/>
+This project contains all the samples of my videos on <a href="https://www.youtube.com/channel/UC4TcEW7UPQTS8uAGS611BOg" target="_blank">my YouTube channel</a>.<br/>
 It always contains the update of the last video, but i will never delete or refactor something. You will always be able to use it for each video.
 
 ## Setup
