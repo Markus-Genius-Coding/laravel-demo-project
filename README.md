@@ -2,6 +2,12 @@
 This project contains all the samples of my videos on <a href="https://www.youtube.com/channel/UC4TcEW7UPQTS8uAGS611BOg" target="_blank">my YouTube channel</a>.<br/>
 It always contains the update of the last video, but I will never delete or refactor something. You will always be able to use it for each video.
 
+#### Project Template
+<i>
+You are welcome to use this as your docker-container template for Laravel projects. <br/>
+On the branch "laravel-docker-installation" you can find an empty project runnable as docker-container. 
+</i>
+
 ## Setup
 Docker and Docker-Compose are required to run this project. <br/>
 Need help? <br/>
