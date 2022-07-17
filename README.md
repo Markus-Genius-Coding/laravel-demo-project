@@ -1,8 +1,8 @@
-#Genius-Coding Laravel demo project
+# Genius-Coding Laravel demo project
 This project contains all the samples of my videos on <a href="https://www.youtube.com/channel/UC4TcEW7UPQTS8uAGS611BOg">my YouTube channel</a>.<br/>
 It always contains the update of the last video, but i will never delete or refactor something. You will always be able to use it for each video.
 
-##Setup
+## Setup
 Docker and Docker-Compose are required to run this project. <br/>
 Need help? <br/>
 <ul>
@@ -10,7 +10,7 @@ Need help? <br/>
     <li><a href="https://docs.docker.com/compose/install/">Install docker-compose</a></li>
 </ul>
 
-###Install and run the docker-containers 
+### Install and run the docker-containers 
 1. Clone this project and cd into the directory
 2. Copy and edit the .env.examle (APP_URL, databasesettings)
 3. Run ``` docker-compose up -d genius-coding ``` 
@@ -18,7 +18,7 @@ Need help? <br/>
 5. Open http://localhost:10500 in a browser. You should see the startpage of Laravel.
 6. Done 
 
-####Database permissions
+#### Database permissions
 1. Run ``` docker-compose exec mysql-db bash ```
 2. You are connected to the database container now
 3. Run ``` mysql -uroot -p ```
@@ -31,7 +31,7 @@ Need help? <br/>
 10. Run ``` exit``` to disconnect from you container
 11. Done
 
-####Final step - Migrations
+#### Final step - Migrations
 1. Run ``` docker-compose exec genius-coding bash ```
 2. Run ``` composer update ```
 3. Run ``` php artisan migrate```
