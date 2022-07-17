@@ -13,10 +13,11 @@ Need help? <br/>
 ### Install and run the docker-containers 
 1. Clone this project and cd into the directory
 2. Copy and edit the .env.examle (APP_URL, databasesettings)
-3. Run ``` docker-compose up -d genius-coding ``` 
-4. Run ``` docker-ps ``` and you should see the container ```genius-coding``` and ```mysql-db``` up and running 
-5. Open http://localhost:10500 in a browser. You should see the startpage of Laravel.
-6. Done 
+3. Run ``` docker network create genius-coding-network ```
+4. Run ``` docker-compose up -d genius-coding ``` 
+5. Run ``` docker-ps ``` and you should see the container ```genius-coding``` and ```mysql-db``` up and running 
+6. Open http://localhost:10500 in a browser. You should see the startpage of Laravel.
+7. Done 
 
 #### Database permissions
 1. Run ``` docker-compose exec mysql-db bash ```
