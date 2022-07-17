@@ -13,31 +13,34 @@ Need help? <br/>
 ### Install and run the docker-containers 
 1. Clone this project and cd into the directory
 2. Copy and edit the .env.examle (APP_URL, databasesettings)
-3. Run ``` docker network create genius-coding-network ```
-4. Run ``` docker-compose up -d genius-coding ``` 
-5. Run ``` docker-ps ``` and you should see the container ```genius-coding``` and ```mysql-db``` up and running 
-6. Open http://localhost:10500 in a browser. You should see the startpage of Laravel.
-7. Done 
+3. If not already done - open you command line tool and cd into the project directory
+4. Run ``` docker network create genius-coding-network ```
+5. Run ``` docker-compose up -d genius-coding ``` 
+6. Run ``` docker-ps ``` and you should see the container ```genius-coding``` and ```mysql-db``` up and running 
+7. Open http://localhost:10500 in a browser. You should see the startpage of Laravel.
+8. Done 
 
 #### Database permissions
-1. Run ``` docker-compose exec mysql-db bash ```
-2. You are connected to the database container now
-3. Run ``` mysql -uroot -p ```
-4. Enter the password which is in your .env file and hit enter
-5. Now you are connected to the database shell of mysql 
-6. Run ``` GRANT ALL PRIVILEGES ON genius_coding.* TO 'genius_coding'@'%'; ``` where 'genius_coding' after the ON is the name of the database and 'genius_coding' after TO is the database user. Change it to fit the settings of your .env file if you changed it.
-7. Run ``` FLUSH PRIVILEGES ;```
-8. Run ``` EXIT;```
-9. You are back on the shell of your database container now
-10. Run ``` exit``` to disconnect from you container
-11. Done
+1. If not already done - open you command line tool and cd into the project directory
+2. Run ``` docker-compose exec mysql-db bash ```
+3. You are connected to the database container now
+4. Run ``` mysql -uroot -p ```
+5. Enter the password which is in your .env file and hit enter
+6. Now you are connected to the database shell of mysql 
+7. Run ``` GRANT ALL PRIVILEGES ON genius_coding.* TO 'genius_coding'@'%'; ``` where 'genius_coding' after the ON is the name of the database and 'genius_coding' after TO is the database user. Change it to fit the settings of your .env file if you changed it.
+8. Run ``` FLUSH PRIVILEGES ;```
+9. Run ``` EXIT;```
+10. You are back on the shell of your database container now
+11. Run ``` exit``` to disconnect from you container
+12. Done
 
 #### Final step - Migrations
-1. Run ``` docker-compose exec genius-coding bash ```
-2. Run ``` composer update ```
-3. Run ``` php artisan migrate```
-4. Run ``` exit``` to disconnect from you container
-5. Done
+1. If not already done - open you command line tool and cd into the project directory
+2. Run ``` docker-compose exec genius-coding bash ```
+3. Run ``` composer update ```
+4. Run ``` php artisan migrate```
+5. Run ``` exit``` to disconnect from you container
+6. Done
 
 <strong>You are now able to follow each of my videos marked with Laravel in the title. </strong> 
 
