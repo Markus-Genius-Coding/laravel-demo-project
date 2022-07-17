@@ -13,3 +13,13 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+
+
+bootstrap/compiled.php
+public_html/storage
+public_html/hot
+
+storage/*.key
+.env
+/.vagrant
+.phpunit.result.cache
