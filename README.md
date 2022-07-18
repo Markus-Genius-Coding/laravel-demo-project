@@ -44,7 +44,7 @@ Need help? <br/>
 2. Run ``` docker-compose exec genius-coding bash ```
 3. Run ``` composer update ```
 4. Run ``` php artisan migrate```
-5. Run ``` exit``` to disconnect from you container
+5. Run ``` exit``` to disconnect from you container 
 6. Open http://localhost:10500 in a browser. You should see the startpage of Laravel.
 7. Done
 
