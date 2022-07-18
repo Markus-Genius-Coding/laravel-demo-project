@@ -22,7 +22,7 @@ Need help? <br/>
 3. If not already done - open you command line tool and cd into the project directory
 4. Run ``` docker network create genius-coding-network ```
 5. Run ``` docker-compose up -d genius-coding ``` 
-6. Run ``` docker-ps ``` and you should see the container ```genius-coding``` and ```mysql-db``` up and running (healthy)
+6. Run ``` docker ps ``` and you should see the container ```genius-coding``` and ```mysql-db``` up and running (healthy)
 7. Done 
 
 #### Database permissions
