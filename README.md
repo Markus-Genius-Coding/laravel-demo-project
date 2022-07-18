@@ -22,9 +22,8 @@ Need help? <br/>
 3. If not already done - open you command line tool and cd into the project directory
 4. Run ``` docker network create genius-coding-network ```
 5. Run ``` docker-compose up -d genius-coding ``` 
-6. Run ``` docker-ps ``` and you should see the container ```genius-coding``` and ```mysql-db``` up and running 
-7. Open http://localhost:10500 in a browser. You should see the startpage of Laravel.
-8. Done 
+6. Run ``` docker-ps ``` and you should see the container ```genius-coding``` and ```mysql-db``` up and running
+7. Done 
 
 #### Database permissions
 1. If not already done - open you command line tool and cd into the project directory
@@ -46,7 +45,8 @@ Need help? <br/>
 3. Run ``` composer update ```
 4. Run ``` php artisan migrate```
 5. Run ``` exit``` to disconnect from you container
-6. Done
+6. Open http://localhost:10500 in a browser. You should see the startpage of Laravel.
+7. Done
 
 <strong>You are now able to follow each of my videos marked with Laravel in the title. </strong> 
 
