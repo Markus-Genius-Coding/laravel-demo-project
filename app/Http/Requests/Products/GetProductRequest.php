@@ -35,6 +35,8 @@ class GetProductRequest extends FormRequest
 
     public function messages()
     {
+
+        //customized error messages
         return [
             'id.required' => 'Enter a product-id',
             'id.exists' => 'Product not found!',
